@@ -32,3 +32,29 @@ section{
     background-color: salmon;
     display: grid;
 }
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.box{
+    /* background-color: #fff; */
+    border: 2px solid white;
+    border-radius: 10%;
+    width: 250px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box button{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
