@@ -58,3 +58,11 @@ section{
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: blue;
+}
