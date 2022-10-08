@@ -12,57 +12,19 @@ body {
     padding: 1rem;
     border: 2px solid white;
     text-align: center;
-
 }
 h2 {
     color: white;
-}
-.movies {
-    margin-top: 1rem;
-}
-.movie{
-    background-color: lightgrey;
-    border: 1px solid black;
-    font-size: 1.25rem;
-    padding: .5rem ;
-    text-transform: capitalize;
 }
 section{
     min-height: 100vh;
     background-color: salmon;
     display: grid;
 }
-.boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-.box{
-    /* background-color: #fff; */
-    border: 2px solid white;
-    border-radius: 10%;
-    width: 250px;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.box button{
+button{
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: 1rem;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-.green {
-    background-color: greenyellow;
-}
-
-.blue {
-    background-color: blue;
 }
