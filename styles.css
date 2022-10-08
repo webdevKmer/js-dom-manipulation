@@ -14,17 +14,42 @@ body {
     text-align: center;
 }
 h2 {
-    color: white;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 section{
     min-height: 100vh;
-    background-color: salmon;
-    display: grid;
+    background-color: greenyellow;
 }
 button{
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: 1rem;
+    font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.reveal {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .content-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btn {
+        flex: 1
+    }
+    .content {
+        flex: 2;
+    }
 }
